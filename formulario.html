@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:ital@1&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <div class="logoYNombre">
+            <div class="logo">
+            </div>
+            <div class="nombreF">
+                <a href="./index.html">
+                    <img src="./img/azul.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <nav>
+            <div class="navegacion">
+
+                <ul>  
+                    <div class="navOrdenador">
+                    <li><a class="ini" href="index.html">Inicio</a></li>
+                    <li><a class="pro" href="./proyectos.html">Proyectos</a></li>
+                    <li><a class="ski" href="./skills.html">Skills</a></li>
+                    <li><a class="sob" href="./sobre mí.html">Sobre mí</a></li>
+                    <li><a class="for" href="./formulario.html">Formulario</a></li>
+                </div>
+                </ul>
+            </div> 
+            
+        </nav>
+        <nav>
+            <div class="nav-container">
+                <button class="toggle" id="toggle">
+                    <img id='toggleIcon' src="./img/icon-hamburger.svg" alt="">
+                </button>
+
+                <div class="menu" id="menu">
+
+                    <ul> 
+                        <li><a class="ini" href="index.html">Inicio</a></li>
+                        <li><a class="pro" href="./proyectos.html">Proyectos</a></li>
+                        <li><a class="ski" href="./skills.html">Skills</a></li>
+                        <li><a class="sob" href="./sobre mí.html">Sobre mí</a></li>
+                        <li><a class="for" href="./formulario.html">Formulario</a></li>
+                    </ul>
+                </div> 
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+            <form class="formulario" action="" method="POST" id="formulario">
+
+                <div class="nYA">
+                    <div class="nombre">
+                        <label for="">Nombre</label><br>
+                        <input class="inputText" type="text" id="nombre" placeholder="Tu nombre" required><br>
+                    </div>
+                    <div class="apellido">
+                        <label for="">Apellidos</label><br>
+                        <input class="inputText" type="text" id="apellidos" placeholder="Tus apellidos" required><br>
+                    </div>
+                </div>
+
+                <label for="">Email</label><br>
+                <input class="email" type="email" id="email" placeholder="Tu Email" required><br>
+                <label for="">Contraseña</label><br>
+                <input class="contraseña" type="password" name="" id="contraseña" placeholder="Contraseña" required><br>
+                <div class="botonesForm">
+                    <button class="btnEnviar" type="submit" value="Enviar">Enviar</button>
+                    <button class="btnLimpiar" type="reset" id="reset" value="Limpiar Campos">Limpiar Campos</button>
+                </div>
+            </form>
+   
+    </main>
+    <footer>
+        <div class="fraseF">
+            <p>¡¡Simpre dispuesta a ayudar!!</p>
+        </div>
+        <div class="correoF">
+            <a href="correo.html">betsaidars97@gmail.com</a>
+        </div>
+        <div class="redesS">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+        </div>
+    </footer>
+    <script src="./javaScript/JavaScript.js">
+    </script>
+    <script src="./javaScript/validacion.js"></script>
+</body>
+</html>

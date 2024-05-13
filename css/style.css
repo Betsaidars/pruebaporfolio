@@ -1,0 +1,1076 @@
+:root{
+     
+    /* ERROR */
+
+    --Rojo: #F82810;
+
+    /* VALIDACIÓN */
+
+    --Verde: #10D322;
+
+    /*COLORES PASTEL 2*/
+
+    --blanco: #fff;
+    --gris: #979595;
+    --negro: #27262F;
+    --rosa: #F35B66;
+    --dorado: #DDAE6E;
+    --rosaPalo: #f6c8c7;
+    --azulOscuro: #0078d4;
+    --azulClaro: #71afe5;
+    --azulMedio: #2b88d8;
+    --light-0: #f8f9fa;
+    --light-1: #e9ecef;
+    --light-2: #dee2e6;
+    --dark-0: #495057;
+    --dark-1: #343a40;
+    --dark-2: #212529;
+    --green: #c3c82c;
+    --blue: #2939ff;
+}
+
+html{
+    background-color: var(--blanco);
+    height: 100%;
+}
+
+*,*:before, * :after{
+    box-sizing: inherit;
+}
+/* body{
+    background: var(--light-0);
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+    transition: 0.3s ease;
+}
+body.dark {
+    background: var(--dark-2);
+}
+input {
+    position: absolute;
+} 
+label {
+    background: var(--light-2);
+    border-radius: 20px;
+    cursor: pointer;
+    height: 38px;
+    position: relative;
+    width: 68px;
+}
+#toggle-button:checked + label {
+    background: var(--dark-0);
+}
+#toggle-button:checked + label .sun-moon {
+    background: var(--dark-1);
+    transform: translateX(30px);
+} 
+label .sun-moon {
+    background: radial-gradient(var(--green), transparent);
+    border-radius: 50%;
+    height: 30px;
+    margin: 4px;
+    transition: transform 0.3s ease;
+    width: 30px;
+} */
+
+
+.logoYNombre{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.toggle{
+    border: none;
+    background: none;
+    margin-right: 2rem;
+}
+.navegacion{
+    display: none;
+}
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.menu{
+    background-color: var(--azulMedio);
+    display: none;
+    line-height: 2rem;
+    margin-right: 3rem;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .1);
+}
+.menu li{
+    border-bottom: 1px solid var(--azulClaro);
+    color: var(--blanco);
+}
+
+.menu a{
+    color: var(--blanco);
+    font-size: 23px;
+    line-height: 3rem;
+    margin-right: 10rem;
+}
+.menu .ini:hover{
+    background-color: var(--azulClaro);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-block: 0.5rem;
+    border-radius: 0.5rem;
+}
+.menu .pro:hover{
+    background-color: var(--azulClaro);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-block: 0.5rem;
+    border-radius: 0.5rem;
+}
+.menu .ski:hover{
+    background-color: var(--azulClaro);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-block: 0.5rem;
+    border-radius: 0.5rem;
+}
+.menu .sob:hover{
+    background-color: var(--azulClaro);
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-block: 0.5rem;
+    border-radius: 0.5rem;
+}
+.menu .for:hover{
+    background-color: var(--azulClaro);
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-block: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contenedor{
+    background-image: url(../img/computers-2690565_1280.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+}
+.saludo{
+    display: flex;
+    margin-left: 1rem;
+}
+.saludo p{
+    margin-left: 0.5rem;
+    color: var(--negro);
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+.parrafo{
+    margin-top: 0;
+    margin-inline: 3rem;
+    font-size: 40px;
+    color: white;
+    line-height: 3.5rem;
+}
+.parrafo p{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    color: var(--negro);
+}
+footer{
+    background-color: var(--azulClaro);
+}
+.frase{
+    padding-top: 1rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.frase p{
+    color: var(--negro);
+}
+.correo{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.correo a{
+    color: var(--negro);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.correo a:hover{
+    color: var(--azulOscuro);
+}
+.redes{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* PROYECTOS */
+
+.logoYNombreP{
+    display: flex;
+}
+.nombreP{
+    margin-top: 2rem;
+}
+.nombreP a{
+    color: var(--LetrasClaras);
+    font-size: 25px;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+.nombreP a:hover{
+    color: #ee8787;
+}
+.menuProyectos{
+    background-color: var(--LetrasClaras);
+    padding-block: 0.8rem;
+    margin-top: 1.5rem;
+}
+.menuProyectos a{
+    margin-left: 1.5rem;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.fraseProyectos{
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    color: var(--negro);
+    margin-top: 2rem;
+    margin-inline: 3rem;
+    line-height: 2rem;
+}
+.img1{
+    background-image: url(../img/img1.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+}
+.img1 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 20rem;
+    padding-bottom: 12rem;
+}
+.img2{
+    background-image: url(../img/img2.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+}
+.img2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 20rem;
+    padding-bottom: 12rem;
+    padding-right: 10rem;
+}
+.img3{
+    background-image: url(../img/img3.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+}
+.img3 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 20rem;
+    padding-bottom: 12rem;
+}
+.img4{
+    background-image: url(../img/img4.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+}
+.img4 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20rem;
+    padding-bottom: 12rem;
+    padding-right: 15rem;
+}
+.img5{
+    background-image: url(../img/img5.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+}
+.img5 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 20rem;
+    padding-bottom: 12rem;
+    padding-right: 10rem;
+}
+.img6{
+    background-image: url(../img/img6.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+}
+.img6 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 20rem;
+    padding-right: 10rem;
+    padding-bottom: 12rem;
+}
+.img7{
+    background-image: url(../img/img7.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+}
+.img7 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 20rem;
+    padding-right: 10rem;
+    padding-bottom: 12rem;
+}
+.img8{
+    background-image: url(../img/img8.png);
+    background-size: cover;
+    width: 18rem;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--azulClaro);
+    margin-bottom: 3rem;
+}
+.img8 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 20rem;
+    padding-right: 10rem;
+    padding-bottom: 12rem;
+}
+footer{
+    background-color: var(--azulClaro);
+}
+.fraseP{
+    padding-top: 1rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.correoP{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.correoP a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.correoP a:hover{
+    color: var(--AzulOscuro);
+}
+.redesP{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+/* SKILLS */
+
+.fraseSkills{
+    background-color: var(--azulClaro);
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 20px;
+}
+
+.primeraSkill{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+.primeraSkill p{
+    background-color: orange;
+    opacity: 50%;
+    padding-block: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+.primeraImagenSkill{
+    background-image: url(../img/html.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    background-color: orange;
+    border-radius: 8rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 6rem;
+}
+.hache{
+    margin-top: 0.3rem; 
+    display: flex;
+    justify-content: center;
+}
+.segundaSkill{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+}
+.segundaSkill p{
+    background-color: var(--azulClaro);
+    opacity: 50%;
+    padding-block: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+}
+.segundaImagenSkill{
+    background-image: url(../img/css.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--azulClaro);
+    border-radius: 8rem;
+    position: absolute;
+    z-index: 1;
+    margin-right: 5.5rem;
+}
+.ce{
+    margin-top: 0.3rem; 
+    display: flex;
+    justify-content: center;
+}
+
+.terceraSkill{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+.terceraSkill p{
+    background-color: rgb(248, 181, 58);
+    opacity: 50%;
+    padding-block: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+.terceraImagenSkill{
+    background-image: url(../img/js.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(248, 181, 58);
+    border-radius: 8rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 6rem;
+}
+.javaScript{
+    margin-top: 0.3rem; 
+    display: flex;
+    justify-content: center;
+}
+.cuartaSkill{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+}
+.cuartaSkill p{
+    background-color: var(--azulClaro);
+    opacity: 50%;
+    padding-block: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+}
+.cuartaImagenSkill{
+    background-image: url(../img/java.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--azulClaro);
+    border-radius: 8rem;
+    position: absolute;
+    z-index: 1;
+    margin-right: 5.5rem;
+}
+.java{
+    margin-top: 0.3rem; 
+    display: flex;
+    justify-content: center;
+}
+.quintaSkill{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+.quintaSkill p{
+    background-color: turquoise;
+    opacity: 50%;
+    padding-block: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 3.5rem;
+}
+.quintaImagenSkill{
+    background-image: url(../img/sql.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    background-color: turquoise;
+    border-radius: 8rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 6rem;
+}
+.sql{
+    margin-top: 0.3rem; 
+    display: flex;
+    justify-content: center;
+}
+.sextaSkill{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    margin-bottom: 2rem;
+}
+.sextaSkill p{
+    background-color: salmon;
+    opacity: 50%;
+    padding-block: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+}
+.sextaImagenSkill{
+    background-image: url(../img/iconoXML.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+    background-color: salmon;
+    border-radius: 8rem;
+    position: absolute;
+    z-index: 1;
+    margin-right: 5.5rem;
+}
+.xml{
+    margin-top: 0.3rem; 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* SOBRE MI */
+
+.logoYNombre{
+    display: flex;
+}
+.nombreS{
+    margin-top: 2rem;
+}
+.nombreS a{
+    color: var(--LetrasClaras);
+    font-size: 25px;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+.nombreS a:hover{
+    color: #ee8787;
+}
+.menuSobreMi{
+    background-color: var(--LetrasClaras);
+    padding-block: 0.8rem;
+    margin-top: 1.5rem;
+}
+.menuSobreMi a{
+    margin-left: 1.5rem;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.biografia{
+    color: var(--negro);
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-style: oblique; /* DUDA */
+    line-height: 2.5rem;
+    margin-top: 3rem;
+    margin-inline: 1rem;
+    margin-bottom: 5rem;
+    border: 4px dotted var(--azulClaro);
+    border-radius: 0.5rem;
+}
+.biografia p{
+    margin-inline: 1rem;
+}
+.fraseS{
+    padding-top: 1rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.correoS{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.correoS a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.correoS a:hover{
+    color: var(--AzulOscuro);
+}
+.redesS{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* FORMULARIO */
+
+.logoYNombre{
+    display: flex;
+}
+.nombreF{
+    margin-top: 2rem;
+}
+.nombreF a{
+    color: var(--LetrasClaras);
+    font-size: 25px;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+}
+.nombreF a:hover{
+    color: #ee8787;
+}
+form{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 14.5rem;
+    font-size: 25px;
+}
+form label{
+    margin-top: 2rem;
+    text-shadow: 2px 2px #a09e9e;
+}
+form input{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 3px 5px #525050;
+    padding-block: 0.3rem;
+}
+.comentario{
+    padding-block: 2rem;
+}
+.botonesForm{
+    margin-top: 2rem;
+}
+.btnLimpiar{
+    margin-left: 1rem;
+}
+.btnEnviar,
+.btnLimpiar{
+    box-shadow: 3px 5px #525050;
+    border-radius: 0.3rem;
+}
+.btnEnviar:hover,
+.btnLimpiar:hover{
+    background-color: var(--PrincipalClaro);
+}
+.fraseF{
+    padding-top: 1rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.correoF{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+.correoF a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.correoF a:hover{
+    color: var(--AzulOscuro);
+}
+
+
+@media (min-width:768px){
+
+    /* GENERAL */
+
+    /* INDEX */
+
+    .logo{
+        background-image: url(../img/BETSAIDA\ RODRÍGUEZ-Photoroom.png-Photoroom.png);
+        height: 12rem;
+        width: 15rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 1rem 0 0 10rem;
+    }
+    .toggle,
+    .menu ul{
+        display: none;
+    }
+    .navegacion{
+        display: flex;
+        background-color: var(--azulClaro);
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .navOrdenador{
+        display: flex;
+    }
+    .navOrdenador a{
+        color: white;
+        text-decoration: none;
+        margin-left: 8rem;
+        font-size: 25px;
+    }
+    .navegacion .ini:hover{
+        background-color: var(--azulMedio);
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-block: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .navegacion .pro:hover{
+        background-color: var(--azulMedio);
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-block: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .navegacion .ski:hover{
+        background-color: var(--azulMedio);
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-block: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .navegacion .sob:hover{
+        background-color: var(--azulMedio);
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-block: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .navegacion .for:hover{
+        background-color: var(--azulMedio);
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-block: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    .imagenYFrase{
+        display: flex;
+        margin-left: 5rem;
+    }
+    .contenedor{
+        width: 35rem;
+        height: 30rem;
+    }
+    .saludo svg{
+        margin-top: 2rem;
+        width: 4rem;
+        height: 4rem;
+    }
+    .saludo p{
+        font-size: 35px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .parrafo{
+        font-size: 60px;
+        margin-inline: 5rem;
+    }
+    .frase{
+        font-size: 30px;
+        margin-left: 10rem;
+    }
+    .correo a{
+        font-size: 25px;
+        margin-left: 10rem;
+    }
+    .redes{
+        margin-left: 12rem;
+    }
+
+    /* PROYECTOS */
+
+    .nombreP a{
+        color: var(--LetrasClaras);
+        font-size: 60px;
+        margin-left: 3rem;
+        text-decoration: none;
+        font-family: 'Indie Flower', cursive;
+    }
+    .fraseProyectos{
+        font-family: 'Indie Flower', cursive;
+        font-size: 35px;
+        color: var(--negro);
+        margin-top: 3rem;
+        padding-bottom: 1rem;
+        margin-inline: 15rem;
+        line-height: 3rem;
+        text-shadow: 2px 2px #a09e9e;
+    }
+    .contenedorP{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .fraseP{
+        font-size: 30px;
+        margin-left: 10rem;
+    }
+    .correoP a{
+        font-size: 25px;
+        margin-left: 10rem;
+    }
+    .redesP{
+        margin-left: 12rem;
+    }
+    
+    /* SKILLS */
+
+
+    .fraseSkills{
+        font-size: 30px;
+    }
+    .primeraSkill p{
+        padding-block: 1.5rem;
+        padding-left: 8rem;
+        padding-right: 17rem;
+    }
+    .primeraImagenSkill{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 0.5rem;
+        margin-left: 25rem;
+    }
+    .hache{
+        font-size: 25px;
+    }
+    .segundaSkill p{
+        padding-block: 1.5rem;
+        padding-left: 16rem;
+        padding-right: 10rem;
+    }
+    .segundaImagenSkill{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 0.8rem;
+        margin-right: 25rem;
+    }
+    .ce{
+        font-size: 28px;
+    }
+    .terceraSkill p{
+        padding-block: 1.5rem;
+        padding-left: 5rem;
+        padding-right: 17rem;
+    }
+    .terceraImagenSkill{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 0.5rem;
+        margin-left: 25rem;
+    }
+    .javaScript{
+        font-size: 28px;
+    }
+    .cuartaSkill p{
+        padding-block: 1.5rem;
+        padding-left: 16rem;
+        padding-right: 10rem;
+    }
+    .cuartaImagenSkill{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 0.8rem;
+        margin-right: 25rem;
+    }
+    .java{
+        font-size: 28px;
+    }
+    .quintaSkill p{
+        padding-block: 1.5rem;
+        padding-left: 5rem;
+        padding-right: 17rem;
+    }
+    .quintaImagenSkill{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 0.5rem;
+        margin-left: 25rem;
+    }
+    .sql{
+        font-size: 28px;
+    }
+    .sextaSkill{
+        margin-bottom: 5rem;
+    }
+    .sextaSkill p{
+        padding-block: 1.5rem;
+        padding-left: 16rem;
+        padding-right: 10rem;
+    }
+    .sextaImagenSkill{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 0.8rem;
+        margin-right: 25rem;
+    }
+    .xml{
+        font-size: 28px;
+    }
+
+    /* SOBRE MI */
+
+    .nombreS a{
+        color: var(--LetrasClaras);
+        font-size: 60px;
+        margin-left: 3rem;
+        text-decoration: none;
+        font-family: 'Indie Flower', cursive;
+    }
+    .biografia{
+        margin-inline: 15rem;
+    }
+    .biografia p{
+        font-size: 40px;
+        line-height: 5rem
+    }
+    .fraseS{
+        font-size: 30px;
+        margin-left: 10rem;
+    }
+    .correoS a{
+        font-size: 25px;
+        margin-left: 10rem;
+    }
+    .redesS{
+        margin-left: 12rem;
+    }
+    
+    /* FORMULARIO */
+
+    .nombreF a{
+        color: var(--LetrasClaras);
+        font-size: 60px;
+        margin-left: 3rem;
+        text-decoration: none;
+        font-family: 'Indie Flower', cursive;
+    }
+    form{
+        margin-left: 15rem;
+    }
+    .nYA{
+        display: flex;
+    }
+    form input{
+        padding-right: 12rem;
+        padding-block: 0.8rem;
+    }
+    .separarApellido{
+        margin-left: 2rem;
+    }
+    .nombre{
+        margin-top: 2rem;
+    }
+    .apellido{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .email{
+        padding-right: 43.5rem;
+    }
+    .comentario{
+        padding-right: 43.5rem;
+        padding-block: 3rem;
+    }
+    .botonesForm{
+        text-align: center;
+        margin-right: 10rem;
+    }
+    .nombre-correcto{
+        color: red;
+    }
+    .nombre-incorrecto{
+        color: green;
+    }
+}
+

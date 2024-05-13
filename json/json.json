@@ -1,0 +1,49 @@
+
+{
+    "descripcion" : "Por aquí les enseño algunos de los trabajos que he hecho a lo largo de este curso",
+    "proyectos" : [
+
+    {
+        "image" : "img1",
+        "titulo" : "resultSumaryComponentMain", 
+        "URL" : "https://betsaidars.github.io/proyectoArribaAzul/"
+    },
+    {
+        "image" : "img2",
+        "titulo" : "proyectoC", 
+        "URL" : "https://betsaidars.github.io/proyectoC/"
+    },
+    {
+        "image" : "img3",
+        "titulo" : "proyectoCubo", 
+        "URL" : "https://betsaidars.github.io/proyectoCubo/"
+    },
+    {
+        "image" : "img4",
+        "titulo" : "MujerBailando", 
+        "URL" : "https://betsaidars.github.io/proyectoMujerBailando/"
+},
+{
+        "image" : "img5",
+        "titulo" : "proyectoPerfume", 
+        "URL" : "https://betsaidars.github.io/proyectoPerfume/"
+},
+{
+        "image" : "img6",
+        "titulo" : "proyectoLila", 
+        "URL" : "https://betsaidars.github.io/proyectoLila/"
+},
+{
+        "image" : "img7",
+        "titulo" : "proyectoQR", 
+        "URL" : "https://betsaidars.github.io/proyectoQR/"
+},
+{
+        "image" : "img8",
+        "titulo" : "proyectoCajas", 
+        "URL" : "https://betsaidars.github.io/proyectoVariasCajass/"
+}
+        
+    ]
+    
+}
